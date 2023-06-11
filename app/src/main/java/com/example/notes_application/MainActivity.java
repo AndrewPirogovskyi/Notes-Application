@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 if (!heading.isEmpty()) {
                     if(!content.isEmpty()) {
                         try {
-                            FileOutputStream fileOutputStream = openFileOutput(heading + ".txt", Context.MODE_PRIVATE); //heading will be the filename
+                            FileOutputStream fileOutputStream = openFileOutput(heading + ".txt", Context.MODE_PRIVATE);
                             fileOutputStream.write(content.getBytes());
                             fileOutputStream.close();
                         } catch (FileNotFoundException e) {
