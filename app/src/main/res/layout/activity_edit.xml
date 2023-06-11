@@ -28,7 +28,7 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="Note Content"
+        android:hint="Content"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
