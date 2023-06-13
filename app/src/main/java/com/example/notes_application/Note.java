@@ -24,7 +24,7 @@ public class Note extends AppCompatActivity {
         Intent intent = getIntent();
         final String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-        // Capture the layout's TextView and set the string as its text
+        // Capture the layout's TextView and set the string as it's text
         final TextView textView = findViewById(R.id.Heading);
         textView.setText(message);
         final String FILE_NAME = message + ".txt";

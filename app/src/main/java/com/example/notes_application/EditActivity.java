@@ -61,7 +61,7 @@ public class EditActivity extends AppCompatActivity {
                         fOut.write(editText.getText().toString().trim().getBytes());
                         fOut.close();
                         TextView status_view = (TextView) findViewById(R.id.status);
-                        status_view.setText("SAVED!");
+                        status_view.setText("Saved!");
                     } catch (FileNotFoundException e) {
                         e.printStackTrace();
                     } catch (IOException e) {
